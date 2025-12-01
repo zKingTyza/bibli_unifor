@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "189440139246",
+    "project_id": "av3bibliunifor",
+    "storage_bucket": "av3bibliunifor.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189440139246:android:fafd12543a37308a53f8ff",
+        "android_client_info": {
+          "package_name": "com.example.bibliuniforav2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw1vApSSbGmqwSbF7yi7JcfsG76dfs0Ns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

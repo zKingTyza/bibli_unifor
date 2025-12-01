@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="#F0F4FF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <!-- Capa do Livro -->
+        <ImageView
+            android:id="@+id/imageViewCapaEmprestimo"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Capa do Livro"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+        <!-- Título do Livro -->
+        <TextView
+            android:id="@+id/textViewTituloEmprestimo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toEndOf="@id/imageViewCapaEmprestimo"
+            app:layout_constraintTop_toTopOf="@id/imageViewCapaEmprestimo"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="Título do Livro Bem Grande" />
+
+        <!-- Autor do Livro -->
+        <TextView
+            android:id="@+id/textViewAutorEmprestimo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@id/textViewTituloEmprestimo"
+            app:layout_constraintTop_toBottomOf="@id/textViewTituloEmprestimo"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="Nome do Autor" />
+
+        <!-- Data de Devolução -->
+        <TextView
+            android:id="@+id/textViewDataDevolucao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="@id/textViewTituloEmprestimo"
+            app:layout_constraintTop_toBottomOf="@id/textViewAutorEmprestimo"
+            tools:text="Devolução: 01/12/2025" />
+
+        <!-- Botão Renovar -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonRenovar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Renovar"
+            app:icon="@drawable/ic_renew"
+            app:iconGravity="textStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textViewAutorEmprestimo" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

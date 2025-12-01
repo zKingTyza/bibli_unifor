@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">bibli unifor av2</string>
+
+    <string name="cd_back_button">Botão Voltar\n</string>
+    <string name="cd_home_button">Ir para a página inicial</string>
+    <string name="cd_profile_button">Abrir perfil do usuário</string>
+    <string name="cd_books_button">Ver livros</string>
+    <string name="cd_events_button">Ver eventos</string>
+    <string name="cd_notifications_button">Ver notificações</string>
+    <string name="cd_unifor_logo">Logo da Unifor</string>
+    <string name="cd_search_input">Campo de pesquisa</string>
+    <string name="cd_book_cover">Capa do livro</string>
+    <string name="cd_event_image">Imagem do evento</string>
+    <string name="cd_books_section">Seção de livros</string>
+    <string name="cd_events_section">Seção de eventos</string>
+    <string name="cd_admin_profile_picture">Foto de perfil do administrador</string>
+    <string name="cd_edit_button">Botão Editar</string>
+    <string name="cd_delete_button">Botão Excluir</string>
+
+    <string name="dialogo_excluir_titulo">Confirmar Exclusão</string>
+    <string name="dialogo_excluir_mensagem">Tem certeza que quer excluir o livro:\n\n%1$s\nAutor: %2$s\nEdição: %3$s, Ano: %4$s\n\nTodos os exemplares deste livro serão removidos.</string>
+    <string name="dialogo_botao_excluir">Excluir</string>
+    <string name="dialogo_botao_cancelar">Cancelar</string>
+    <string name="livro_excluido_sucesso">Livro excluído com sucesso</string>
+
+
+    <string name="admin_title">Administrador</string>
+    <string name="books_section_title">Seção de Livros</string>
+    <string name="events_active_title">Eventos Ativos</string>
+    <string name="search_hint">Pesquise aqui</string>
+    <string name="default_book_title">It - A Coisa</string>
+    <string name="default_book_author">Stephen King</string>
+    <string name="default_book_details">Editora: Suma\nAno: 1986</string>
+    <string name="add_exemplar_button">+ Adicionar Exemplar</string>
+    <string name="exemplares_title">Exemplares</string>
+    <string name="formato_id_exemplar">ID: %1$s</string>
+    <string name="formato_status_exemplar">Status: %1$s</string>
+    <string name="bot_o_eventos">Botão Eventos</string>
+    <string name="bot_o_livros">Botão Livros</string>
+    <string name="bot_o_notifica_es">Botão Notificações</string>
+    <string name="sinopse">Sinopse</string>
+    <string name="logo_da_unifor">Logo da Unifor</string>
+    <string name="editar_livro">Editar Livro</string>
+    <string name="ano_de_publica_o">Ano de Publicação</string>
+    <string name="bot_o_perfil">Botão Perfil</string>
+    <string name="bot_o_in_cio">Botão Início</string>
+    <string name="salvar_altera_es">Salvar Alterações</string>
+    <string name="autor">Autor</string>
+    <string name="editora">Editora</string>
+    <string name="url_da_capa">URL da Capa</string>
+    <string name="t_tulo_do_livro">Título do Livro</string>
+    <string name="capa_do_livro">Capa do Livro</string>
+    <string name="titulo_do_livro" />
+    <string name="ano_de_publicacao" />
+    <string name="salvar_alteracoes">Salvar Alterações</string>
+    <string name="excluir_livro">Excluir Livro </string>
+    <string name="formato_detalhes_livro">Ano: %1$s | Edição: %2$s\nEditora: %3$s</string>
+
+    <string name="dialogo_excluir_livro_titulo">Confirmar Exclusão do Livro</string>
+    <string name="dialogo_excluir_livro_mensagem">Tem certeza que quer excluir o livro:\n\n%1$s\nAutor: %2$s\nAno: %3$s\n\nTodos os exemplares deste livro serão removidos.</string>
+
+    <string name="dialogo_excluir_exemplar_titulo">Confirmar Exclusão do Exemplar</string>
+    <string name="dialogo_excluir_exemplar_mensagem"><![CDATA[
+        Tem certeza que quer excluir o exemplar:
+        <br/><br/>
+        %1$s
+        <br/>
+        <b>ID: %2$s</b>
+        <br/>
+        Status: %3$s
+    ]]></string>
+
+    <string name="adicionar_exemplar_titulo">Adicionar Exemplar</string>
+    <string name="adicionar_exemplar_botao">Adicionar Exemplar</string>
+
+    <string name="exemplar_excluido_sucesso">Exemplar excluído com sucesso</string>
+    <string name="t_tulo">Título</string>
+    <string name="ano">Ano</string>
+    <string name="sugest_es">Sugestões</string>
+    <string name="meus_livros">Meus Livros</string>
+    <string name="minha_biblioteca">Minha Biblioteca</string>
+    <string name="home">Home</string>
+    <string name="doar">Doar</string>
+    <string name="notifica_es">Notificações</string>
+    <string name="livros">Livros</string>
+    <string name="perfil">Perfil</string>
+    <string name="sair">Sair</string>
+    <string name="editar_perfil">Editar Perfil</string>
+    <string name="bot_o_menu">Botão menu</string>
+    <string name="formato_data_evento">Data: %1$s</string>
+    <string name="formato_hora_evento">Hora: %1$s</string>
+    <string name="formato_local_evento">Local: %1$s</string>
+    <string name="icone_data_evento">Ícone de Data</string>
+    <string name="icone_local_evento">Ícone de Local</string>
+    <string name="livro_excluido_falha">Falha ao excluir o livro. Tente novamente.</string>
+    <string name="dialogo_excluir_mensagem_simples">Deseja realmente excluir o exemplar "%1$s" do autor "%2$s"?</string>
+    <string name="excluir_exemplar">Excluir Exemplar</string>
+    <string name="configura_es">Configurações</string>
+    <string name="cd_delete_exemplar" />
+    <string name="formato_quantidade_exemplares" />
+</resources>
